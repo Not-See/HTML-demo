@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo</title>
+    <link rel="stylesheet" href="loading.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- loading1 -->
+        <div class="atom-spinner">
+            <div class="spinner-inner">
+                <div class="spinner-line"></div>
+                <div class="spinner-line"></div>
+                <div class="spinner-line"></div>
+                <!--Chrome renders little circles malformed :(-->
+                <div class="spinner-circle">
+                    &#9679;
+                </div>
+            </div>
+        </div>
+
+        <!-- loading2 -->
+        <div class="flower-spinner">
+            <div class="dots-container">
+                <div class="bigger-dot">
+                    <div class="smaller-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- loading3 -->
+        <div class="pixel-spinner">
+            <div class="pixel-spinner-inner"></div>
+        </div>
+
+        <!-- loading4 -->
+        <div class="hollow-dots-spinner" :style="spinnerStyle">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <!-- loading5 -->
+        <div class="orbit-spinner">
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+            <div class="orbit"></div>
+        </div>
+    </div>
+    <h1>我是loading</h1>
+</body>
+<script>
+    var body = document.body;
+    console.log(body);
+    window.onload = function() {
+        alert("页面加赞完毕")
+        body.remove('h1')
+    }
+</script>
+</html>

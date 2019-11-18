@@ -1,0 +1,88 @@
+/* 反向水平布局 */
+.wk_rowback{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* 反向垂直布局 */
+.wk_colback{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* 换行 */
+.wk_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 反向换行 */
+.wk_wrapback{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/* 左对齐 */
+.wk_end{
+    display: flex;
+    justify-content: flex-end;
+}
+/* 居中对齐 */
+.wk_levelcenter{
+    display: flex;
+    justify-content: center;
+}
+/* 两端对齐 */
+.wk_between{
+    display: flex;
+    justify-content: space-between;
+}
+/* 两端余白 */
+.wk_around{
+    display: flex;
+    justify-content: space-around;
+}
+/* 左上对齐 */
+.wk_zuostart{
+    display: flex;
+    align-items: flex-start;
+}
+/* 右下对齐 */
+.wk_youend{
+    display: flex;
+    align-items: flex-end;
+}
+/* 垂直居中 */
+.wk_vercenter{
+    display: flex;
+    align-items: center;
+}
+.wk_stretch{
+    display: flex;
+    align-items: stretch;
+}
+.wk_baseline{
+    display: flex;
+    align-items: baseline;
+}
+.wk_contentstart{
+    display: flex;
+    align-content: flex-end;
+}
+/* 垂直水平文本居中换行 */
+.wk_textcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 垂直居中水平两端文本居中 */
+.wk_textbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* 垂直居中水平两端余白文本居中 */
+.wk_textaround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
